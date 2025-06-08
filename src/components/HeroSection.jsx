@@ -5,7 +5,7 @@ import { Button } from './ui/moving-border'
 
 const HeroSection = () => {
   return (
-    <div className='h-auto md:h-[40rem] relative w-full flex flex-col items-center justify-center rounded-md overflow-hidden mx-auto md:py-0 py-10'>
+    <div className='h-auto md:h-[100vh] relative w-full flex flex-col items-center justify-center rounded-md overflow-hidden mx-auto md:py-0 py-10 '>
         <Spotlight
         className="-top-40 left-0 md:-top-20 md:left-60"
         fill="white"
@@ -19,7 +19,7 @@ const HeroSection = () => {
             <Link href="/courses">
                 <Button
                 borderRadius="2rem"
-                className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800">
+                className="bg-white cursor-pointer dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800">
                     Explore courses
                 </Button>
             </Link>
