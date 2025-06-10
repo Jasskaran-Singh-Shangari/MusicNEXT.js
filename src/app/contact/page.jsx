@@ -28,7 +28,7 @@ const ContactPage = () => {
         </div>
 
         <form onSubmit={handleSubmit} className='space-y-4 mt-10 flex flex-col items-center justify-center w-full'>
-        <input
+          <input
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -36,7 +36,7 @@ const ContactPage = () => {
             className="rounded-lg border border-neutral-500 focus:ring-2 focus:ring-teal-500 w-[80%] p-4 bg-transparent placeholder:text-neutral-600 z-20"
             required
           />
-        <textarea
+          <textarea
           name="message" 
           value={message}
           onChange={(e)=>setMessage(e.target.value)}
@@ -44,8 +44,11 @@ const ContactPage = () => {
           rows={7}
           className="rounded-lg border border-neutral-500 focus:ring-2 focus:ring-teal-500 w-[70%] p-4 bg-transparent placeholder:text-neutral-600 z-20"
           required></textarea>
-        <Button
-        borderRadius='2rem' className={"font-extrabold"}>Send</Button>
+          <Button
+          borderRadius='2rem' 
+          className={"font-extrabold"}>
+            Send
+          </Button>
 
         </form>
 </div>
