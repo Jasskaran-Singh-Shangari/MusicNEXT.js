@@ -3,18 +3,24 @@
 import React, { useState } from 'react'
 import { BackgroundBeams } from '@/components/ui/background-beams'
 import { Button } from '@/components/ui/moving-border'
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const ContactPage = () => {
-    const [email, setEmail]=useState(null)
-    const [message, setMessage]=useState(null)
+    const [email, setEmail]=useState("")
+    const [message, setMessage]=useState("")
     
     const handleSubmit=(e)=>{
         e.preventDefault();
-        const formData=new FormData(e.target);
+        const formData=new FormData(e.currentTarget);
+        console.log("email", email)
+        console.log("message", message)
 
-        
-
+        toast.success("Message Sent")
+        setEmail("")
+        setMessage("") 
     }
+
   return (
     <div className="relative py-12 pt-36 min-h-screen w-full bg-black">
         <BackgroundBeams className="absolute top-0 left-0 w-full h-full z-0" />
@@ -27,7 +33,7 @@ const ContactPage = () => {
         </p>
         </div>
 
-        <form onSubmit={handleSubmit} className='space-y-4 mt-10 flex flex-col items-center justify-center w-full'>
+        <form onSubmit={handleSubmit}  className='space-y-4 mt-10 flex flex-col items-center justify-center w-full'>
           <input
             type="email"
             value={email}
@@ -46,13 +52,16 @@ const ContactPage = () => {
           required></textarea>
           <Button
           borderRadius='2rem' 
-          className={"font-extrabold"}>
+          type="submit"
+          className={"font-extrabold z-50 cursor-pointer"}>
             Send
           </Button>
+          {/* <button type='submit' className='px-4 py-2 rounded-3xl border border-white z-50 cursor-pointer'>Submit</button> */}
 
         </form>
+        <ToastContainer />
 </div>
   )
 }
 
-export default ContactPage
+export default ContactPage;
