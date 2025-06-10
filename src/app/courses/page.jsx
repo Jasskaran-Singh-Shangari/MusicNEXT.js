@@ -4,6 +4,8 @@ import React from 'react'
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from 'next/image';
 import Course_Data from "@/data/music-courses.json"
+import Link from 'next/link';
+
 
 const coursesPage = () => {
 
@@ -44,13 +46,15 @@ const coursesPage = () => {
                 >
                     {course.price} $
                 </CardItem>
-                <CardItem
+                <Link href={`/courses/${course.slug}`}>
+                  <CardItem
                     translateZ={20}
                     as="button"
                     className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold pointer-cursor"
                 >
                     Sign up
                 </CardItem>
+                </Link>
                 </div>
             </CardBody>
         </CardContainer>

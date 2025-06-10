@@ -8,17 +8,29 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/guitar.jpg" 
+        "image": "/guitar.jpg",
+        "topic1": "Introduction to Guitar",
+        "content1": "This section provides a comprehensive overview of the guitar as an instrument. You'll learn about the different types of guitars, their anatomy (body, neck, frets, strings, etc.), and how to properly hold and tune your guitar. We’ll also cover the fundamentals of finger placement and picking techniques, ensuring that you start with correct posture and hand position to avoid strain or injury.",
+        "topic2": "Basic Chords and Strumming",
+        "content2": "Here, we dive into the foundational chords every guitarist should know, including major and minor open chords. You’ll practice smooth chord transitions and learn to play along with simple rhythms. This section also introduces you to various strumming patterns that add groove and dynamics to your playing. Exercises and guided play-alongs will help solidify your muscle memory and rhythm sense.",
+        "topic3": "Simple Songs Practice",
+        "content3": "Put your skills into action by learning to play beginner-friendly songs. This section focuses on applying chords and strumming in real musical contexts. You'll play along with popular tunes that reinforce your chord transitions, timing, and rhythm. This is where the fun begins — playing actual songs that build your confidence and keep you motivated to progress."
       },
       {
-        "id": 2,
+          "id": 2,
         "title": "Piano for Beginners",
         "slug": "piano-for-beginners",
         "description": "Start your musical journey with foundational piano skills taught by expert instructors.",
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/piano.jpg" 
+        "image": "/piano.jpg",
+        "topic1": "Getting to Know Your Piano",
+        "content1": "In this section, you'll explore the layout and functionality of the piano. Learn about the keyboard, the names of the white and black keys, and how the pedals affect sound. We'll cover posture, hand positioning, and finger numbering — all essential for building good playing habits from day one. By the end of this topic, you'll be able to locate notes easily and feel comfortable sitting at your instrument.",
+        "topic2": "Playing Basic Scales and Melodies",
+        "content2": "Here you'll begin playing your first notes. We'll focus on simple finger exercises, major scales like C and G, and one-handed melodies to build finger strength and dexterity. You'll learn to read basic sheet music and understand rhythm, tempo, and note values. This is where your muscle memory starts to develop, setting the foundation for smooth, confident playing.",
+        "topic3": "Easy Songs and Chord Progressions",
+        "content3": "Apply your skills by learning simple two-hand songs that use both melody and harmony. This topic introduces you to chord progressions such as C-G-Am-F, used in countless songs. You’ll also explore dynamics and expression to add feeling to your music. With practice, you'll be able to play beginner-friendly songs fluidly, and gain the motivation to take your piano journey further."
       },
       {
         "id": 3,
@@ -28,7 +40,13 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/vocal.jpg" 
+        "image": "/vocal.jpg",
+        "topic1": "Breath Control and Vocal Stamina",
+        "content1": "This section focuses on refining your breath support to sustain longer phrases and improve vocal power. You'll practice advanced breathing techniques like appoggio and diaphragmatic control, which help maintain consistent airflow while singing. Through targeted exercises, you'll build stamina and eliminate tension in the throat, resulting in a stronger, clearer tone across your vocal range.",
+        "topic2": "Vocal Agility and Range Expansion",
+        "content2": "Here, you'll work on increasing vocal flexibility and extending your vocal range. Techniques like vocal runs, lip trills, and scale patterns will help you sing fast passages with precision and confidence. You'll also explore mixed voice strategies to seamlessly transition between head and chest voice, allowing for a fuller, more dynamic sound regardless of pitch.",
+        "topic3": "Expression, Dynamics, and Performance",
+        "content3": "Great singers do more than hit the right notes — they tell a story. In this topic, you'll learn how to add emotional depth through dynamics, phrasing, and vocal tone. You’ll study stylistic choices across genres and apply these techniques in performance-based exercises. By the end, you’ll be prepared to deliver polished and captivating live or recorded performances that resonate with your audience."
       },
       {
         "id": 4,
@@ -38,7 +56,13 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/drumming.jpg"
+        "image": "/drumming.jpg",
+        "topic1": "Foundation of Rhythm and Technique",
+        "content1": "Start by developing a strong foundation in rhythm and stick technique. This section introduces you to proper grip, posture, and basic drumming patterns such as single strokes, double strokes, and paradiddles. You’ll also learn how to count time, read drum notation, and practice with a metronome to build consistency and precision. These core skills are essential for progressing to more complex patterns and grooves.",
+        "topic2": "Grooves, Fills, and Timing",
+        "content2": "Explore the heart of drumming — grooves and fills. You'll learn to play in various styles like rock, funk, pop, and blues, focusing on creating tight pocket rhythms and dynamic fills. Emphasis is placed on timing, syncopation, and transitions to make your playing fluid and expressive. Practical exercises and play-alongs with backing tracks help you lock in with other instruments and elevate your musicality.",
+        "topic3": "Advanced Techniques and Soloing",
+        "content3": "Push your limits with advanced drumming techniques such as ghost notes, polyrhythms, and linear drumming. You’ll also study solo construction, improvisation, and expressive playing. This topic encourages creativity while reinforcing control and coordination across the kit. By the end, you'll be equipped to perform confidently in live settings or studio recordings with technical finesse and stylistic versatility."
       },
       {
         "id": 5,
@@ -48,7 +72,13 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/jazz.jpg"
+        "image": "/jazz.jpg",
+        "topic1": "Understanding Jazz Theory",
+        "content1": "Begin with the foundational concepts of jazz music theory. This topic covers jazz scales (like Dorian, Mixolydian, and Lydian), chord construction, and the importance of modes in improvisation. You'll learn how to recognize and navigate common jazz chord progressions such as ii-V-I, and how to apply scales effectively over different harmonies. Building a strong theoretical base ensures your solos are both expressive and harmonically sound.",
+        "topic2": "Developing Improvisational Skills",
+        "content2": "Now that you understand the theory, it's time to improvise. In this section, you'll practice phrasing, motif development, and call-and-response techniques. Learn to improvise over backing tracks, start slow with guided licks, and gradually build your confidence in soloing over complex changes. You'll also explore the role of dynamics, articulation, and rhythm in shaping a compelling solo.",
+        "topic3": "Playing with Style and Confidence",
+        "content3": "This final topic dives into the feel and groove that define jazz. You’ll study recordings of legendary jazz soloists to understand stylistic nuances and interpretive choices. You'll also work on improvising within group settings, learning to listen and respond in real time. By the end of this course, you’ll be able to craft expressive, stylistically rich solos that reflect your own musical voice while honoring jazz traditions."
       },
       {
         "id": 6,
@@ -58,7 +88,13 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/music-prod.jpg"
+        "image": "/music-prod.jpg",
+        "topic1": "Introduction to Digital Audio Workstations (DAWs)",
+        "content1": "Start your music production journey by understanding the tools of the trade. This topic introduces you to popular DAWs such as FL Studio, Ableton Live, and Logic Pro. You’ll learn how to navigate the interface, record and edit audio and MIDI, and set up your first project. The lessons focus on getting hands-on with the software so you can start creating beats and melodies right away.",
+        "topic2": "Sound Design and Recording Techniques",
+        "content2": "Explore the fundamentals of sound design and recording. This includes microphone types and placement, capturing high-quality audio, and layering tracks to build your sound. You'll also get familiar with synthesizers, samplers, and drum machines to craft unique sounds. Through practical exercises, you’ll learn how to shape tones using EQ, filters, and envelopes to bring your creative vision to life.",
+        "topic3": "Mixing Essentials and Project Workflow",
+        "content3": "Learn the essentials of mixing, including leveling, panning, EQ, compression, and reverb. This topic walks you through organizing your session, using buses and sends, and achieving a balanced mix that sounds polished and professional. You'll understand how to approach a project from start to finish, applying techniques that are used in modern music production across genres."
       },
       {
         "id": 7,
@@ -68,7 +104,13 @@
         "price": 159.99,
         "instructor": "Samantha Miller",
         "isFeatured": false,
-        "image": "/song-writing.jpg"
+        "image": "/song-writing.jpg",
+        "topic1": "Understanding Song Structure",
+        "content1": "Begin by exploring the core structures that make up popular and effective songs. Learn about verses, choruses, bridges, pre-choruses, and how to use them to shape emotional and musical flow. You'll analyze famous examples and practice organizing your own ideas into coherent, engaging forms that resonate with listeners.",
+        "topic2": "Lyric Writing and Storytelling",
+        "content2": "Delve into the art of writing meaningful lyrics that connect with your audience. This topic covers rhyme schemes, metaphors, imagery, and emotional triggers. You’ll also practice writing from different perspectives and developing a theme or story that gives your songs depth and relatability.",
+        "topic3": "Melody, Harmony, and Chord Progressions",
+        "content3": "Explore how melody and harmony work together to support your lyrics and evoke emotion. You'll experiment with scales, intervals, and common chord progressions used in various genres. This section will help you write memorable hooks and compelling musical phrases that elevate your songwriting to a professional level."
       },
       {
         "id": 8,
@@ -78,7 +120,13 @@
         "price": 169.99,
         "instructor": "Luke Harris",
         "isFeatured": true,
-        "image": "/EC-music-prod.jpg"
+        "image": "/EC-music-prod.jpg",
+        "topic1": "Introduction to Electronic Music Tools",
+        "content1": "Start by getting familiar with the key tools and software used in electronic music production. This includes DAWs like Ableton Live, virtual instruments (VSTs), synthesizers, and drum machines. You'll learn how to navigate these tools, build your first beats, and start crafting original loops and patterns tailored to electronic genres like house, techno, and EDM.",
+        "topic2": "Sound Design and Synth Programming",
+        "content2": "Dive deeper into sound creation using subtractive, FM, and wavetable synthesis. This section teaches you how to sculpt basslines, leads, pads, and effects from scratch using popular synths such as Serum, Massive, or built-in Ableton devices. You'll also learn automation techniques and layering tricks to give your tracks a rich, professional sound.",
+        "topic3": "Arranging and Producing Full Tracks",
+        "content3": "Take your ideas from loops to finished tracks by mastering arrangement techniques. Learn how to build tension, create breakdowns and drops, and use FX transitions for dynamic flow. You'll also get hands-on with mixing and mastering basics specifically for electronic music, helping your final product sound club-ready and polished."
       },
       {
         "id": 9,
@@ -88,7 +136,13 @@
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": false,
-        "image": "/classical-music.jpg"
+        "image": "/classical-music.jpg",
+        "topic1": "Origins and Early Development",
+        "content1": "Begin your journey by tracing the roots of classical music from ancient civilizations through the Medieval and Renaissance periods. Understand how early forms of notation, sacred chants, and courtly music laid the foundation for more structured compositions. You'll explore key composers and how social and religious contexts influenced the music of each era.",
+        "topic2": "Baroque to Romantic Eras",
+        "content2": "Discover how classical music evolved through the Baroque, Classical, and Romantic periods. Analyze the works of masters such as Bach, Mozart, Beethoven, and Chopin. Learn how musical forms like the symphony, concerto, and opera developed, and how emotional expression and instrumental techniques expanded through the centuries.",
+        "topic3": "20th Century to Contemporary Classical Music",
+        "content3": "Conclude by exploring the innovations of the 20th century and the emergence of modern classical styles. Examine movements like minimalism, atonality, and neoclassicism through the works of composers like Stravinsky, Glass, and Reich. This topic also covers the influence of technology and globalization on the evolution of classical music today."
       },
       {
         "id": 10,
@@ -98,8 +152,30 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/blues.jpg"
-      }
+        "image": "/blues.jpg",
+        "topic1": "Understanding the Blues Structure",
+        "content1": "Learn the core structure of blues music, starting with the 12-bar blues progression. You'll explore common chord patterns, rhythm variations, and essential strumming techniques that serve as the backbone of blues guitar playing. This foundation prepares you to jam and improvise with confidence.",
+        "topic2": "Techniques and Expression",
+        "content2": "Master key blues techniques such as string bending, slides, hammer-ons, and pull-offs. You'll also study the use of vibrato and muting to add emotion and expression to your playing. This section helps you develop the soulful phrasing that makes blues guitar unique and impactful.",
+        "topic3": "Improvisation and Soloing",
+        "content3": "Dive into blues soloing using the minor and major pentatonic scales. Learn how to craft expressive licks, build solos, and incorporate call-and-response phrasing. You'll also explore the playing styles of legendary blues guitarists like B.B. King and Stevie Ray Vaughan for real-world inspiration and practice."
+      },
+      {
+        "id": 11,
+        "title": "Advanced Composition",
+        "slug": "advanced-composition",
+        "description": "Master the art of musical composition with advanced techniques and theory.",
+        "price": 199.99,
+        "instructor": "Sophia Bennett",
+        "isFeatured": true,
+        "image": "/composition.jpg",
+        "topic1": "Advanced Harmonic Structures",
+        "content1": "Explore complex harmonic progressions and extended chords used in modern and classical composition. This topic covers modulation, voice leading, and chromaticism to enrich your harmonic vocabulary. You'll analyze examples from renowned composers and apply techniques in your own compositions.",
+        "topic2": "Orchestration and Instrumentation",
+        "content2": "Learn how to write effectively for different instruments and ensembles. Understand the ranges, timbres, and technical capabilities of orchestral instruments, and how to combine them for desired textures and dynamics. This topic will help you orchestrate your compositions professionally.",
+        "topic3": "Form, Structure, and Originality",
+        "content3": "Develop a deep understanding of musical forms such as sonata, rondo, and through-composed pieces. You’ll be guided on how to maintain coherence while introducing original themes and motifs. Emphasis will be placed on balancing creativity with structural integrity to craft compelling compositions."
+}
     ]
   }
   
